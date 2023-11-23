@@ -1,27 +1,50 @@
-﻿using ETSFilmesAPI.Model;
+﻿using ETSFilmesAPI.Data;
+using ETSFilmesAPI.Model;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ETSFilmesAPI.Controllers;
 
 [ApiController]
 [Route("[controller]")]
-public class FilmeController
+public class FilmeController : ControllerBase
 {
-    private static List<Filme> filmes = new();
-    private static int id = 0;
+    private FilmeContext context;
 
-    [HttpPost]
-    public void AdicionarFilmes([FromBody]Filme filme)
+    // INICIALIZANDO O CONTEXTO
+    public FilmeController(FilmeContext context)
     {
-        filme.Id = id++;
-        filmes.Add(filme);
-        Console.WriteLine(filme.Titulo);
-        Console.WriteLine(filme.Duracao);
+        this.context = context;
     }
 
-    [HttpGet]
-    public List<Filme> RetornarFilmes()
+
+    // ENDPOINTS
+    [HttpPost]
+    public IActionResult AdicionarFilmes([FromBody] Filme filme)
     {
-        return filmes;
+        context.Filmes.Add(filme);
+        context.SaveChanges();
+
+        return CreatedAtAction(nameof(RecuperarFilmePorId), new { id = filme.Id }, filme);
+    }
+
+
+    [HttpGet]
+    public List<Filme> RetornarFilmes([FromQuery] int skip = 0, [FromQuery] int take = 5)
+    {
+        return context.Filmes.Skip(skip).Take(take).ToList();
+    }
+
+
+    [HttpGet("{id}")]
+    public IActionResult RecuperarFilmePorId([FromRoute] int id)
+    {
+        var filme = context.Filmes.FirstOrDefault(f => f.Id == id);
+
+        if (filme == null)
+        {
+            return NotFound();
+        }
+
+        return Ok(filme);
     }
 }
