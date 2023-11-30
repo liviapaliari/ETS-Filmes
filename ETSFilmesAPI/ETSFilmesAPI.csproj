@@ -4,17 +4,14 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+	  <GenerateDocumentationFile>true</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="NovaPasta2\**" />
-    <Compile Remove="NovaPasta\**" />
     <Content Remove="NovaPasta2\**" />
-    <Content Remove="NovaPasta\**" />
     <EmbeddedResource Remove="NovaPasta2\**" />
-    <EmbeddedResource Remove="NovaPasta\**" />
     <None Remove="NovaPasta2\**" />
-    <None Remove="NovaPasta\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,6 +20,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.Certificate" Version="6.0.15" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.15" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.15">

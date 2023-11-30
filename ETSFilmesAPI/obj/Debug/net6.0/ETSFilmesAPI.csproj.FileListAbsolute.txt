@@ -41,3 +41,5 @@ C:\Users\pao7ca\Desktop\ETSFilmesAPI\ETSFilmesAPI\bin\Debug\net6.0\Microsoft.Ext
 C:\Users\pao7ca\Desktop\ETSFilmesAPI\ETSFilmesAPI\bin\Debug\net6.0\MySqlConnector.dll
 C:\Users\pao7ca\Desktop\ETSFilmesAPI\ETSFilmesAPI\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\Users\pao7ca\Desktop\ETSFilmesAPI\ETSFilmesAPI\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\pao7ca\Desktop\ETSFilmesAPI\ETSFilmesAPI\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\pao7ca\Desktop\ETSFilmesAPI\ETSFilmesAPI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

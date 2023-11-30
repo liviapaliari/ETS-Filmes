@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "uK/JqTRLGiG6gVblmSwmKdOijYrORQvHPetBAg72JCWbHRLKoCIiHPBCRqaJBjujM1tdGJGAwF2Y1USFQUtAzA==",
+  "dgSpecHash": "WXPbuJ5juULpv0MA9L6FvvHk2EcKXlZsIZ0iX+txXR5Qz4vgXdJIu1Ii/mBC6DWNC95O8tQARlT2Tp2wQeJVqw==",
   "success": true,
   "projectFilePath": "C:\\Users\\pao7ca\\Desktop\\ETSFilmesAPI\\ETSFilmesAPI\\ETSFilmesAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\pao7ca\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\pao7ca\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\pao7ca\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\pao7ca\\.nuget\\packages\\microsoft.aspnetcore.authentication.certificate\\6.0.15\\microsoft.aspnetcore.authentication.certificate.6.0.15.nupkg.sha512",
+    "C:\\Users\\pao7ca\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\pao7ca\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.15\\microsoft.entityframeworkcore.6.0.15.nupkg.sha512",
     "C:\\Users\\pao7ca\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.15\\microsoft.entityframeworkcore.abstractions.6.0.15.nupkg.sha512",
     "C:\\Users\\pao7ca\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.15\\microsoft.entityframeworkcore.analyzers.6.0.15.nupkg.sha512",
