@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\pao7ca\\Desktop\\ETSFilmesAPI\\ETSFilmesAPI\\ETSFilmesAPI.csproj": {}
+    "C:\\Users\\pao7ca\\Desktop\\ETS-Filmes\\ETSFilmesAPI\\ETSFilmesAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\pao7ca\\Desktop\\ETSFilmesAPI\\ETSFilmesAPI\\ETSFilmesAPI.csproj": {
+    "C:\\Users\\pao7ca\\Desktop\\ETS-Filmes\\ETSFilmesAPI\\ETSFilmesAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pao7ca\\Desktop\\ETSFilmesAPI\\ETSFilmesAPI\\ETSFilmesAPI.csproj",
+        "projectUniqueName": "C:\\Users\\pao7ca\\Desktop\\ETS-Filmes\\ETSFilmesAPI\\ETSFilmesAPI.csproj",
         "projectName": "ETSFilmesAPI",
-        "projectPath": "C:\\Users\\pao7ca\\Desktop\\ETSFilmesAPI\\ETSFilmesAPI\\ETSFilmesAPI.csproj",
+        "projectPath": "C:\\Users\\pao7ca\\Desktop\\ETS-Filmes\\ETSFilmesAPI\\ETSFilmesAPI.csproj",
         "packagesPath": "C:\\Users\\pao7ca\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pao7ca\\Desktop\\ETSFilmesAPI\\ETSFilmesAPI\\obj\\",
+        "outputPath": "C:\\Users\\pao7ca\\Desktop\\ETS-Filmes\\ETSFilmesAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pao7ca\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.311\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -83,6 +82,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -91,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.311\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

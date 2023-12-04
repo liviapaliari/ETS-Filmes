@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WXPbuJ5juULpv0MA9L6FvvHk2EcKXlZsIZ0iX+txXR5Qz4vgXdJIu1Ii/mBC6DWNC95O8tQARlT2Tp2wQeJVqw==",
+  "dgSpecHash": "9Pgh0ZgV34F5oYWDfIziF9KIwZ8T7y+Kg+4kmo1jGw4HMZgNWqm2OVI3ENd77UMS1r67OCWFulzsAycbblY5Iw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pao7ca\\Desktop\\ETSFilmesAPI\\ETSFilmesAPI\\ETSFilmesAPI.csproj",
+  "projectFilePath": "C:\\Users\\pao7ca\\Desktop\\ETS-Filmes\\ETSFilmesAPI\\ETSFilmesAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pao7ca\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\pao7ca\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
@@ -34,7 +34,11 @@
     "C:\\Users\\pao7ca\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
     "C:\\Users\\pao7ca\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\pao7ca\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
-    "C:\\Users\\pao7ca\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\pao7ca\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\pao7ca\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\pao7ca\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\pao7ca\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\pao7ca\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
   ],
   "logs": []
 }
